@@ -1,0 +1,22 @@
+name: PluginTemplate
+version: '1.0'
+description: This is a Plugin template
+
+author: EasyMFnE
+
+database: false
+main: net.easymfne.plugintemplate.PluginTemplate
+load: STARTUP
+
+commands:
+  plugintemplate:
+    aliases: [pt]
+    description: PluginTemplate main command
+    permission: plugintemplate.admin
+    permission-message: 'Unknown command. Type "help" for help.'
+
+permissions:
+  plugintemplate.admin:
+    default: op
+    description: Allows access to admin functionality
+
