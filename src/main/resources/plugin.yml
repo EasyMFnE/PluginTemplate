@@ -9,8 +9,8 @@ main: net.easymfne.plugintemplate.PluginTemplate
 load: STARTUP
 
 commands:
-  plugintemplate:
-    aliases: [pt]
+  plugincommand:
+    aliases: [pc]
     description: PluginTemplate main command
     permission: plugintemplate.admin
     permission-message: 'Unknown command. Type "help" for help.'

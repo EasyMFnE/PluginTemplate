@@ -11,3 +11,4 @@ This is a template for quickly starting a new Plugin project for Minecraft using
 - JUnit testing class (used to check plugin correctness)
 - Maven `pom.xml` (typical use: `mvn clean package install`)
 - Maven `package.xml` (creates a secondary artifact with source code)
+- MetricsLite included and shaded via Maven.  See [mcstats.org](http://mcstats.org)
